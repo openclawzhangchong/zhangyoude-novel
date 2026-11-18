@@ -1,0 +1,21 @@
+# 抓取的受版权保护内容 —— 不入库、不公开
+source/
+!source/.gitkeep
+
+# 工具缓存与临时产物
+tools/
+analysis/__pycache__/
+test/__pycache__/
+__pycache__/
+*.pyc
+
+# 抓取中间文件
+source/*.html
+source/*.json
+source/*.mp4
+source/*.webp
+source/*.txt
+
+# 系统
+.DS_Store
+Thumbs.db
